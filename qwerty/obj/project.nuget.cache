@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "QknTxpj+pUMox2eG1vPBOBS41DDCv4JwS/4r0p/1F1gGgEuINKfrCCpDyFGtpfczCP4Ua24V18veqLhPS7f+YQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Compile\\qwerty\\qwerty.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\avalonia\\11.0.5\\avalonia.11.0.5.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\avalonia.buildservices\\0.0.29\\avalonia.buildservices.0.0.29.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\avalonia.fonts.inter\\11.0.5\\avalonia.fonts.inter.11.0.5.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\avalonia.reactiveui\\11.0.5\\avalonia.reactiveui.11.0.5.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\avalonia.remote.protocol\\11.0.5\\avalonia.remote.protocol.11.0.5.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\avalonia.themes.fluent\\11.0.5\\avalonia.themes.fluent.11.0.5.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\dynamicdata\\7.9.5\\dynamicdata.7.9.5.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\htmlagilitypack\\1.11.54\\htmlagilitypack.1.11.54.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\reactiveui\\18.3.1\\reactiveui.18.3.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\selenium.support\\4.14.1\\selenium.support.4.14.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\selenium.webdriver\\4.14.1\\selenium.webdriver.4.14.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\splat\\14.4.1\\splat.14.4.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

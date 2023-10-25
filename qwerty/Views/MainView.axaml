@@ -1,0 +1,54 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:qwerty.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="qwerty.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Design.DataContext>
+    <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+    <vm:MainViewModel />
+  </Design.DataContext>
+	<Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0">
+            <TextBlock Text="Welcome" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <Button Content="Parse Albums" Command="{Binding ParseAlbumsButton_Click}" Width="120"/>
+            <ListBox ItemsSource="{Binding albumes}" Height="140" Width="550" Margin="0,20,0,20" SelectionChanged="ListBox_SelectionChanged" SelectionMode="Single" SelectedItem="{Binding SelectedItem}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+						<TextBlock Text="{Binding Name}" />
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,250,0,0">
+    <TextBlock Text="Album Songs:" FontWeight="Bold" Margin="0,0,0,10"/>
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Song Name" FontWeight="Bold" Width="200" />
+            <TextBlock Text="Album Name" FontWeight="Bold" Width="200" />
+            <TextBlock Text="Duration" FontWeight="Bold" Width="100" />
+        </StackPanel>
+        <ListBox ItemsSource="{Binding Songs}" Height="100" Width="550">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200" />
+                            <ColumnDefinition Width="200" />
+                            <ColumnDefinition Width="100" />
+						
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding SongName}" FontWeight="Bold" />
+                        <TextBlock Grid.Column="1" Text="{Binding AlbumName}" FontWeight="Bold" Margin="10,0,0,0" />
+                        <TextBlock Grid.Column="2" Text="{Binding Duration}" FontWeight="Bold" Margin="10,0,0,0" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </StackPanel>
+</StackPanel>
+    </Grid>
+</UserControl>
